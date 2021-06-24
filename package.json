@@ -1,0 +1,20 @@
+{
+  "name": "instagram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codenaij/instagram-clone-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codenaij/instagram-clone-api/issues"
+  },
+  "homepage": "https://github.com/codenaij/instagram-clone-api#readme"
+}
