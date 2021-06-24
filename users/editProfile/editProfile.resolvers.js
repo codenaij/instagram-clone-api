@@ -4,14 +4,17 @@ export default {
   Mutation: {
     editProfile: async (
       _,
-      { firstName, lastName, username, email, password: newPassword }
+      { firstName, lastName, username, email, password: newPassword },
+      { loggedInUser }
     ) => {
+      console.log(loggedInUser)
       let encryptedPassword = null
+
       if (newPassword) {
         encryptedPassword = await bcrypt.hash(newPassword, 10)
       }
       const updatedUser = await client.user.update({
-        where: { id: 'z4qO_icGJo0CD0KAulhuG' },
+        where: { id: loggedInUser.id },
         data: {
           firstName,
           lastName,
