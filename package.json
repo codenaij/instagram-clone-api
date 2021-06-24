@@ -24,9 +24,12 @@
     "@graphql-tools/merge": "^6.2.14",
     "@prisma/client": "^2.25.0",
     "apollo-server": "^2.25.2",
+    "bcrypt": "^5.0.1",
     "dotenv": "^10.0.0",
     "graphql": "^15.5.1",
-    "graphql-tools": "^4.0.8"
+    "graphql-tools": "^4.0.8",
+    "jsonwebtoken": "^8.5.1",
+    "nanoid": "^3.1.23"
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",
